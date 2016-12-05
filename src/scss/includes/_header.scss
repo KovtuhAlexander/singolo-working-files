@@ -82,3 +82,16 @@
 		}
 	}
 }
+
+@media (max-width: 768px) {
+	.nav__list {
+		.nav__link {
+			display: inline-block;
+			padding: 20px;
+
+			&::before {
+				display: none;
+			}
+		}
+	}
+}

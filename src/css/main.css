@@ -85,3 +85,10 @@ body {
         content: ''; }
       .nav .nav__list .nav__link:hover, .nav .nav__list .nav__link:focus, .nav .nav__list .nav__link:active {
         color: #ca4549; }
+
+@media (max-width: 768px) {
+  .nav__list .nav__link {
+    display: inline-block;
+    padding: 20px; }
+    .nav__list .nav__link::before {
+      display: none; } }
