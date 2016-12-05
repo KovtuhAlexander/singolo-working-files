@@ -2,25 +2,25 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local("Lato-Regular"), url("/fonts/Lato-Regular.woff2") format("woff2"), url("/fonts/Lato-Regular.woff") format("woff"), url("/fonts/Lato-Regular.ttf") format("ttf"); }
+  src: local("Lato-Regular"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local("Lato-Bold"), url("/fonts/Lato-Bold.woff2") format("woff2"), url("/fonts/Lato-Bold.woff") format("woff"), url("/fonts/Lato-Bold.ttf") format("ttf"); }
+  src: local("Lato-Bold"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("ttf"); }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: local("Lato-Black"), url("/fonts/Lato-Black.woff2") format("woff2"), url("/fonts/Lato-Black.woff") format("woff"), url("/fonts/Lato-Black.ttf") format("ttf"); }
+  src: local("Lato-Black"), url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.ttf") format("ttf"); }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
-  src: local("Lato-Light"), url("/fonts/Lato-Light.woff2") format("woff2"), url("/fonts/Lato-Light.woff") format("woff"), url("/fonts/Lato-Light.ttf") format("ttf"); }
+  src: local("Lato-Light"), url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("ttf"); }
 
 html {
   box-sizing: border-box; }
@@ -92,3 +92,30 @@ body {
     padding: 20px; }
     .nav__list .nav__link::before {
       display: none; } }
+
+.slider {
+  background-color: #eb5055; }
+  .slider .carousel-control.left,
+  .slider .carousel-control.right {
+    background-image: none; }
+  .slider .carousel-indicators {
+    display: none; }
+  .slider__control_prev {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    width: 18px;
+    height: 30px;
+    margin-top: -15px;
+    background-image: url("../img/icons/slider-control.png"); }
+  .slider__control_next {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    width: 18px;
+    height: 30px;
+    margin-top: -15px;
+    background-image: url("../img/icons/slider-control.png");
+    background-position: 18px 0; }

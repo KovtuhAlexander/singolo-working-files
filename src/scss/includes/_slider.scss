@@ -1,0 +1,35 @@
+.slider {
+	background-color: $letter-contrast;
+
+	.carousel-control.left,
+	.carousel-control.right {
+		background-image: none;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+	&__control_prev {
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		left: 18px;
+		width: 18px;
+		height: 30px;
+		margin-top: -15px;
+		background-image: url('../img/icons/slider-control.png');
+	}
+
+	&__control_next {
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		right: 18px;
+		width: 18px;
+		height: 30px;
+		margin-top: -15px;
+		background-image: url('../img/icons/slider-control.png');
+		background-position: 18px 0;
+	}
+}
