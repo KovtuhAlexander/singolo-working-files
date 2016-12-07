@@ -136,3 +136,39 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px; }
+
+.card {
+  margin-bottom: 40px; }
+  .card__ico {
+    width: 58px;
+    height: 58px;
+    border: 2px solid #666d89;
+    -webkit-border-radius: 50%;
+            border-radius: 50%; }
+    .card__ico_pen, .card__ico_bulb, .card__ico_heart, .card__ico_phone, .card__ico_tip, .card__ico_star {
+      background-image: url("../img/icons/service-icons.svg");
+      background-repeat: no-repeat;
+      background-position-y: center;
+      background-position-x: 10px; }
+    .card__ico_bulb {
+      background-position-x: -51px; }
+    .card__ico_heart {
+      background-position-x: -122px; }
+    .card__ico_phone {
+      background-position-x: -183px; }
+    .card__ico_tip {
+      background-position-x: -253px; }
+    .card__ico_star {
+      background-position-x: -320px; }
+  .card__header {
+    margin-top: 0;
+    margin-bottom: 17px;
+    color: #666d89;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 16px; }
+  .card__description {
+    margin: 0;
+    color: #767e9e;
+    font-size: 12px;
+    line-height: 22px; }
