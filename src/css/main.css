@@ -122,3 +122,17 @@ body {
     margin-top: -15px;
     background-image: url("../img/icons/slider-control.png");
     background-position: 18px 0; }
+
+.services__header {
+  margin-top: 70px;
+  color: #666d89;
+  font-size: 30px;
+  font-weight: 900; }
+
+.services__subHeader {
+  margin-top: 35px;
+  margin-bottom: 47px;
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px; }
