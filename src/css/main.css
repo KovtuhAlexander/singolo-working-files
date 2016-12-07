@@ -123,13 +123,13 @@ body {
     background-image: url("../img/icons/slider-control.png");
     background-position: 18px 0; }
 
-.services__header, .portfolio__header {
+.services__header, .portfolio__header, .about__header {
   margin-top: 70px;
   color: #666d89;
   font-size: 30px;
   font-weight: 900; }
 
-.services__subHeader, .portfolio__subHeader {
+.services__subHeader, .portfolio__subHeader, .about__subHeader {
   margin-top: 35px;
   margin-bottom: 47px;
   color: #767e9e;
@@ -160,14 +160,14 @@ body {
       background-position-x: -253px; }
     .card__ico_star {
       background-position-x: -320px; }
-  .card__header {
+  .card__header, .worker__name {
     margin-top: 0;
     margin-bottom: 17px;
     color: #666d89;
     font-size: 18px;
     font-weight: 900;
     line-height: 16px; }
-  .card__description {
+  .card__description, .worker__bio {
     margin: 0;
     color: #767e9e;
     font-size: 12px;
@@ -184,3 +184,45 @@ body {
   .portfolio__gallery {
     padding-right: 10px;
     padding-bottom: 20px; }
+
+.about {
+  padding-bottom: 75px; }
+
+.worker__name {
+  margin-top: 21px; }
+
+.social {
+  margin-top: 25px; }
+  .social__link {
+    margin-right: 10px; }
+    .social__link_facebook, .social__link_google, .social__link_twitter, .social__link_linkedin {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      -webkit-transition: background-color 250ms ease-in-out;
+      transition: background-color 250ms ease-in-out;
+      border: 1px solid #666d89;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      background-image: url("../img/icons/social.svg");
+      background-repeat: no-repeat;
+      background-position-y: center;
+      background-position-x: 10px; }
+      .social__link_facebook:hover, .social__link_google:hover, .social__link_twitter:hover, .social__link_linkedin:hover {
+        background-color: #ca4549;
+        background-position-x: -25px; }
+    .social__link_google {
+      background-position-x: -58px; }
+      .social__link_google:hover {
+        background-color: #ca4549;
+        background-position-x: -93px; }
+    .social__link_twitter {
+      background-position-x: -130px; }
+      .social__link_twitter:hover {
+        background-color: #ca4549;
+        background-position-x: -165px; }
+    .social__link_linkedin {
+      background-position-x: -199px; }
+      .social__link_linkedin:hover {
+        background-color: #ca4549;
+        background-position-x: -234px; }
