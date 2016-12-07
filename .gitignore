@@ -53,5 +53,4 @@ Temporary Items
 .bowerrc
 debug.log
 node_modules/
-dist/*
 *.psd
