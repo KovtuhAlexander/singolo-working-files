@@ -1,0 +1,13 @@
+.portfolio {
+	background-color: $header-bg;
+
+	&__header {
+		@extend .services__header;
+		margin-top: 59px;
+	}
+
+	&__subHeader {
+		@extend .services__subHeader;
+		margin-top: 18px;
+	}
+}

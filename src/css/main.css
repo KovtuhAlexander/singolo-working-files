@@ -123,13 +123,13 @@ body {
     background-image: url("../img/icons/slider-control.png");
     background-position: 18px 0; }
 
-.services__header {
+.services__header, .portfolio__header {
   margin-top: 70px;
   color: #666d89;
   font-size: 30px;
   font-weight: 900; }
 
-.services__subHeader {
+.services__subHeader, .portfolio__subHeader {
   margin-top: 35px;
   margin-bottom: 47px;
   color: #767e9e;
@@ -172,3 +172,10 @@ body {
     color: #767e9e;
     font-size: 12px;
     line-height: 22px; }
+
+.portfolio {
+  background-color: #303441; }
+  .portfolio__header {
+    margin-top: 59px; }
+  .portfolio__subHeader {
+    margin-top: 18px; }
