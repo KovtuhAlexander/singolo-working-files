@@ -1,0 +1,76 @@
+.services {
+	&__header {
+		margin-top: 70px;
+		color: $heading-color;
+		font-size: 30px;
+		font-weight: 900;
+	}
+
+	&__subHeader {
+		margin-top: 35px;
+		margin-bottom: 47px;
+		color: $text-color;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 30px;
+	}
+}
+
+.card {
+	margin-bottom: 40px;
+	
+	&__ico {
+		width: 58px;
+		height: 58px;
+		border: 2px solid $heading-color;
+		border-radius: 50%;
+
+		&_pen {
+			background-image: url('../img/icons/service-icons.svg');
+			background-repeat: no-repeat;
+			background-position-y: center;
+			background-position-x: 10px;
+		}
+
+		&_bulb {
+			@extend .card__ico_pen;
+			background-position-x: -51px;
+		}
+
+		&_heart {
+			@extend .card__ico_pen;
+			background-position-x: -122px;
+		}
+
+		&_phone {
+			@extend .card__ico_pen;
+			background-position-x: -183px;
+		}
+
+		&_tip {
+			@extend .card__ico_pen;
+			background-position-x: -253px;
+		}
+
+		&_star {
+			@extend .card__ico_pen;
+			background-position-x: -320px;
+		}
+	}
+
+	&__header {
+		margin-top: 0;
+		margin-bottom: 17px;
+		color: $heading-color;
+		font-size: 18px;
+		font-weight: 900;
+		line-height: 16px;
+	}
+
+	&__description {
+		margin: 0;
+		color: $text-color;
+		font-size: 12px;
+		line-height: 22px;
+	}
+}
