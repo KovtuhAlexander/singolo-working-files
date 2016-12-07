@@ -35,9 +35,9 @@ html {
 body {
   font-family: 'Lato'; }
 
-.header {
+.header, .portfolio::after {
   background-color: #303441; }
-  .header::after {
+  .header::after, .portfolio::after {
     display: block;
     width: 100%;
     height: 5px;
@@ -175,7 +175,12 @@ body {
 
 .portfolio {
   background-color: #303441; }
+  .portfolio::after {
+    margin-top: 47px; }
   .portfolio__header {
     margin-top: 59px; }
   .portfolio__subHeader {
     margin-top: 18px; }
+  .portfolio__gallery {
+    padding-right: 10px;
+    padding-bottom: 20px; }

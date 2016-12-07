@@ -1,5 +1,11 @@
 .portfolio {
+	// padding-bottom: 47px;
 	background-color: $header-bg;
+
+	&::after {
+		@extend .header;
+		margin-top: 47px;
+	}
 
 	&__header {
 		@extend .services__header;
@@ -9,5 +15,10 @@
 	&__subHeader {
 		@extend .services__subHeader;
 		margin-top: 18px;
+	}
+
+	&__gallery {
+		padding-right: 10px;
+		padding-bottom: 20px;
 	}
 }
