@@ -1,0 +1,77 @@
+.about {
+	padding-bottom: 75px;
+	&__header {
+		@extend .services__header;
+	}
+
+	&__subHeader {
+		@extend .services__subHeader;
+	}
+}
+
+.worker {
+	&__name {
+		@extend .card__header;
+		margin-top: 21px;
+	}
+
+	&__bio {
+		@extend .card__description;
+	}
+}
+
+.social {
+	margin-top: 25px;
+
+	&__link {
+		margin-right: 10px;
+
+		&_facebook {
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			transition: background-color 250ms ease-in-out;
+			border: 1px solid $heading-color;
+			border-radius: 50%;
+			background-image: url('../img/icons/social.svg');
+			background-repeat: no-repeat;
+			background-position-y: center;
+			background-position-x: 10px;
+
+			&:hover {
+				background-color: $red-control;
+				background-position-x: -25px;
+			}
+		}
+
+		&_google {
+			@extend .social__link_facebook;
+			background-position-x: -58px;
+
+			&:hover {
+				background-color: $red-control;
+				background-position-x: -93px;
+			}
+		}
+
+		&_twitter {
+			@extend .social__link_facebook;
+			background-position-x: -130px;
+
+			&:hover {
+				background-color: $red-control;
+				background-position-x: -165px;
+			}
+		}
+
+		&_linkedin {
+			@extend .social__link_facebook;
+			background-position-x: -199px;
+
+			&:hover {
+				background-color: $red-control;
+				background-position-x: -234px;
+			}
+		}
+	}
+}
